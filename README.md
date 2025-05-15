@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date: 15-05-2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,64 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+  <style>
+    body {
+      background: #cdb239;
+      font-family: 'Georgia', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
+    .book-cover {
+      width: 300px;
+      background-image: url('ingate.jpg');
+      height: 450px;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .book-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 75px;
+    }
+
+    .author-name {
+      font-size: 18px;
+      font-style: italic;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-cover">
+    <div class="book-title">The Journey Within The Hearts Of India</div>
+    <div class="author-name">Guru Revanth</div>
+  </div>
+</body>
+</html>
+
+```
 
 ## OUTPUT:
-
+![alt text](bcover.png)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
